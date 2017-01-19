@@ -9,3 +9,6 @@ change the file in /root/.vnc/xstartup to the below:
 unset SESSION_MANAGER
 exec /etc/X11/xinit/xinitrc
 ```
+
+then run:
+service xrdp restart
